@@ -19,7 +19,8 @@ lints: ^x.y.z # Dart
 with
 
 ```yaml
-enspyr_lints: ^0.0.0-a1
+enspyr_lints:
+  git: https://github.com/enspyrco/enspyr_lints
 ```
 
 ### analysis_options
