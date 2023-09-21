@@ -5,7 +5,8 @@ issue_tracker: https://github.com/enspyrco/monorepo/issues?q=is%3Aissue+is%3Aope
 version: 0.0.0-a1
 
 environment:
-  sdk: ">=3.0.1 <4.0.0"
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
-  flutter_lints: ^2.0.1
+  flutter_lints: ^2.0.3
+  lints: ^2.1.1

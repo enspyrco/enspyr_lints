@@ -1,3 +1,11 @@
-# Just using the recommended lints for now but will come back and customise later.
+# Recommended lints for Dart apps & packages.
 
 include: package:lints/recommended.yaml
+
+analyzer:
+  language:
+    strict-casts: true
+    strict-raw-types: true
+linter:
+  rules:
+    - prefer_relative_imports
